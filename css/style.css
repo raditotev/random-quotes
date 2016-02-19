@@ -1,0 +1,57 @@
+html, body{
+  height: 100%;
+}
+
+body{
+  background: url(http://www.freelargeimages.com/wp-content/uploads/2014/12/Black_background.jpg);
+  background-size: cover;
+}
+
+.container{
+  height: 100%;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.btn{
+  display: inline-block;
+  float: right;
+  border: none;
+}
+
+div .row{
+  margin: 10px auto;
+}
+
+blockquote{
+  color: #fff;
+  border: none;
+  font-size: 30px;
+}
+
+#author{
+  color: #fff;
+}
+
+#twitter{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+i{
+  margin: 5px 10px;
+}
+
+footer{
+  color: #ccc;
+}
+
+footer a{
+  color: #FF6600;
+}
+
